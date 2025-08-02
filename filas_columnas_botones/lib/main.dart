@@ -134,11 +134,13 @@ class Botones extends StatelessWidget {
               style: buttonTextStyle,
               child: const Text("Botón 1"),
             ),
+            // antes era FlatButton pero este está obsoleto
             TextButton(
               onPressed: () {},
               style: elevatedButtonStyle,
               child: const Text("Botón 2"),
             ),
+            // antes era OutlineButton pero este está obsoleto
             OutlinedButton(
               onPressed: () {},
               style: outlinedButtonStyle,
@@ -148,6 +150,7 @@ class Botones extends StatelessWidget {
               onPressed: () {
                  var t = DateTime.now();
                 // ANSI escape code for red: \x1B[31m, reset: \x1B[0m
+                // ignore: avoid_print
                 print("\x1B[31mBotón 1 presionado a las: $t\x1B[0m");
               },
               style: elevatedButtonStyle,
