@@ -42,6 +42,7 @@ class _HomeState extends State<Home> {
               // se cambiara de container a AnimatedContainer
               child: AnimatedContainer(
                 duration: Duration(
+                  //
                   milliseconds: 500,
                 ), // duracopm de la transicion
                 curve: Curves
