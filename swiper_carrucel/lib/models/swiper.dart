@@ -7,6 +7,7 @@ class Swiper extends StatefulWidget {
   State<Swiper> createState() => _SwiperState();
 }
 
+// vista para el carrucel
 class _SwiperState extends State<Swiper> {
   @override
   Widget build(BuildContext context) {
