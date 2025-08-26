@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:swiper_carrucel/models/swiper.dart';
+import "package:flutter/material.dart";
+import "package:persistencia_de_datos/pages/home.dart";
 
 void main() {
   runApp(MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: "swiper", home: SwiperNav());
+    return MaterialApp(title: "Almacenamiento interno", home: Home());
   }
 }
